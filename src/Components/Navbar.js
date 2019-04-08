@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-length">
-            <Link>
+            <Link to="/">
                 <img src={logo} alt="logo" />
             </Link>
             <div className="collapse navbar-collapse show ml-sm-5">

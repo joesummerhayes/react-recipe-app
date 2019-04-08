@@ -8,8 +8,8 @@ export default function Header({ children, title, styleClass }) {
                     <div className="col text-center">
                         <h1 className="text-light text-uppercase display-3 letter-spacing text-slanted">
                             {title}
-                            <h1>{children}</h1>
                         </h1>
+                        <h1>{children}</h1>
                     </div>
                 </div>
             </div>
