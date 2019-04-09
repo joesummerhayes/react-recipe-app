@@ -24,7 +24,7 @@ class Search extends React.Component {
                                     type="text"
                                     name="search"
                                     className="form-control"
-                                    placeholder="chicken"
+                                    placeholder="..."
                                     value={search}
                                     onChange={handleChange}
                                 />
